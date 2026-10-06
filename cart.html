@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bakery Cart</title>
+
+    <style>
+        body {
+            background-color: #fff3e6;
+            font-family: Arial;
+        }
+
+        h1 {
+            text-align: center;
+            color: #8b4513;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th {
+            background-color: #d2691e;
+            color: white;
+            padding: 15px;
+        }
+
+        td {
+            padding: 12px;
+            text-align: center;
+            color: #5a2d0c;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ffe4c4;
+        }
+
+        .total {
+            text-align: right;
+            width: 80%;
+            margin: 20px auto;
+            font-size: 20px;
+            color: #8b4513;
+            font-weight: bold;
+        }
+
+        .btn {
+            background-color: #d2691e;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .nav {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .nav a {
+            color: #d2691e;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🛒 My Bakery Cart</h1>
+
+    <hr>
+
+    <table border="1">
+
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+        </tr>
+
+        <tr>
+            <td>Chocolate Cake</td>
+            <td>₹500</td>
+            <td>1</td>
+            <td>₹500</td>
+        </tr>
+
+        <tr>
+            <td>Chocolate Pastry</td>
+            <td>₹60</td>
+            <td>2</td>
+            <td>₹120</td>
+        </tr>
+
+        <tr>
+            <td>Cookies</td>
+            <td>₹100</td>
+            <td>1</td>
+            <td>₹100</td>
+        </tr>
+
+    </table>
+
+    <div class="total">
+        Grand Total: ₹720
+    </div>
+
+    <div class="nav">
+        <a href="home.html">Home</a>
+        <a href="catalogue.html">Catalogue</a>
+        <a href="#" class="btn">Checkout</a>
+    </div>
+
+</body>
+</html>
